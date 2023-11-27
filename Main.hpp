@@ -9,8 +9,6 @@
 
 class Main
 {
-private:
-  /* data */
 public:
   void printHeader(City fromCity, City toCity) const
   {
@@ -25,4 +23,3 @@ public:
                      << ", elevation " << toCity.elevation);
   }
 };
-
